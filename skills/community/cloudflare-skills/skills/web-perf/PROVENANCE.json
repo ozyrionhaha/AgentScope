@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/cloudflare/skills",
+  "revision": "626547c06881a20b3322bdc2ed6e6451b33a4fb6",
+  "path": "skills\\web-perf\\SKILL.md",
+  "license": "Apache-2.0",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

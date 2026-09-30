@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/getsentry/skills",
+  "revision": "8ca687957041ab9ece4562aad2b399b8dc8e4cae",
+  "path": "skills\\iterate-pr\\SKILL.md",
+  "license": "Apache-2.0",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

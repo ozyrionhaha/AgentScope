@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/ClickHouse/agent-skills",
+  "revision": "356a8c1b9a7392adb389a132f5ad3fec38532a03",
+  "path": "skills\\clickhouse-js-node-rowbinary\\SKILL.md",
+  "license": "Apache-2.0",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

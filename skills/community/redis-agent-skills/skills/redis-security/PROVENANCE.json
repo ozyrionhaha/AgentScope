@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/redis/agent-skills",
+  "revision": "a84871d065f398fed55e1633f66b66f731eb4e2b",
+  "path": "skills\\redis-security\\SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

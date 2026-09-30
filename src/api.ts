@@ -1,0 +1,9 @@
+import { useCallback, useEffect, useState } from 'react';
+export async function api<T>(url:string,body?:unknown,method?:string):Promise<T>{
+  const response=await fetch('/api'+url,{method:method??(body===undefined?'GET':'POST'),headers:{'content-type':'application/json','x-agentscope':'1'},...(body===undefined?{}:{body:JSON.stringify(body)})});
+  const data=await response.json() as T&{error?:string};if(!response.ok)throw new Error(data.error??'The local service could not complete this request.');return data;
+}
+export function useResource<T>(url:string|null,initial:T){const [data,setData]=useState(initial),[error,setError]=useState(''),[loading,setLoading]=useState(!!url);const reload=useCallback(async()=>{if(!url)return;try{setData(await api<T>(url));setError('');}catch(e){setError(String(e instanceof Error?e.message:e));}finally{setLoading(false);}},[url]);useEffect(()=>{let active=true;if(!url){setLoading(false);return;}setLoading(true);api<T>(url).then(value=>{if(active){setData(value);setError('');}}).catch(e=>{if(active)setError(String(e instanceof Error?e.message:e));}).finally(()=>{if(active)setLoading(false);});return()=>{active=false;};},[url]);return {data,setData,error,loading,reload};}
+export const money=(amount:number|null|undefined)=>amount==null?'Not reported':new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2,maximumFractionDigits:4}).format(amount);
+export const number=(value:number)=>new Intl.NumberFormat('en-US',{notation:value>=10000?'compact':'standard',maximumFractionDigits:1}).format(value);
+export function download(name:string,content:string,type='text/plain'){const url=URL.createObjectURL(new Blob([content],{type}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}

@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/stripe/ai",
+  "revision": "6a482a7ab5aa0a2e461f68c5c1ea107232a80a45",
+  "path": "providers\\codex\\plugin\\skills\\stripe-directory\\SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

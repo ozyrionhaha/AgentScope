@@ -1,0 +1,1470 @@
+[
+  {
+    "source": "https://github.com/angular/skills",
+    "revision": "26881df5d1f6d7536209a9de0ed19f0cae4b77aa",
+    "included": 0,
+    "excluded": [
+      {
+        "path": "angular-developer\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "angular-new-app\\SKILL.md",
+        "reason": "No complete distributable license found"
+      }
+    ],
+    "patterns": []
+  },
+  {
+    "source": "https://github.com/anthropics/skills",
+    "revision": "8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4",
+    "included": 14,
+    "excluded": [
+      {
+        "path": "skills\\doc-coauthoring\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\docx\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\pdf\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\pptx\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\xlsx\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "template\\SKILL.md",
+        "reason": "No complete distributable license found"
+      }
+    ],
+    "patterns": [
+      "academy-guide: Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claud",
+      "algorithmic-art: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic ",
+      "brand-guidelines: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guideline",
+      "canvas-design: Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other stat",
+      "claude-api: Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER — read BEFORE opening",
+      "discernment-nudge: After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates ",
+      "frontend-design: Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't rea",
+      "internal-comms: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some ",
+      "mcp-builder: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers ",
+      "skill-creator: Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run e",
+      "slack-gif-creator: Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Sla",
+      "theme-factory: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can app",
+      "web-artifacts-builder: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts r",
+      "webapp-testing: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, a"
+    ]
+  },
+  {
+    "source": "https://github.com/antonbabenko/terraform-skill",
+    "revision": "0a3a4a66e99001347d36a41e10260a825be3ab62",
+    "included": 1,
+    "excluded": [],
+    "patterns": [
+      "terraform-skill: Use when writing, reviewing, or debugging Terraform/OpenTofu modules, tests, CI, scans, or state ops - diagnoses failure mode (identity churn, secrets, blast radius, CI drift, stat"
+    ]
+  },
+  {
+    "source": "https://github.com/better-auth/skills",
+    "revision": "20c9e88a5c007461a703f1c213572b073196113e",
+    "included": 0,
+    "excluded": [
+      {
+        "path": "better-auth\\best-practices\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "better-auth\\create-auth\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "better-auth\\emailAndPassword\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "better-auth\\organization\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "better-auth\\twoFactor\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "security\\SKILL.md",
+        "reason": "No complete distributable license found"
+      }
+    ],
+    "patterns": []
+  },
+  {
+    "source": "https://github.com/ClickHouse/agent-skills",
+    "revision": "356a8c1b9a7392adb389a132f5ad3fec38532a03",
+    "included": 11,
+    "excluded": [],
+    "patterns": [
+      "chdb-datastore: Use when the user has tabular data (pandas DataFrame, parquet, csv, Arrow, json) and wants to filter, group, aggregate, join, or speed up slow pandas. Provides chDB DataStore — sam",
+      "chdb-sql: Use when the user wants to run SQL — especially analytical SQL — on local files (parquet/csv/json), URLs, S3 paths, or remote databases (Postgres, MySQL, MongoDB, ClickHouse Cloud,",
+      "clickhouse-architecture-advisor: MUST USE when designing ClickHouse architectures, selecting between ingestion or modeling patterns, or translating best practices into workload-specific system designs. Complements",
+      "clickhouse-best-practices: MUST USE when reviewing ClickHouse schemas, queries, or configurations. Contains 31 rules that MUST be checked before providing recommendations. Always read relevant rule files and",
+      "clickhouse-js-node-coding: Write idiomatic application code with the ClickHouse Node.js client (`@clickhouse/client`). Use this skill whenever a user is *building* against the Node.js client — configuring th",
+      "clickhouse-js-node-rowbinary: Generate TypeScript/JavaScript code that reads/decodes AND writes/encodes ClickHouse RowBinary streams for the ClickHouse HTTP server. Use this skill whenever a user wants to parse",
+      "clickhouse-js-node-troubleshooting: Troubleshoot and resolve common issues with the ClickHouse Node.js client (@clickhouse/client). Use this skill whenever a user reports errors, unexpected behavior, or configuration",
+      "clickhouse-managed-postgres-rca: MUST USE when investigating performance issues on a ClickHouse-managed Postgres instance. Provides an evidence-based RCA workflow that scrapes the Prometheus endpoint for system si",
+      "clickstack-otel-collector: Use when a user wants to wire an OpenTelemetry collector into a Managed ClickStack service on ClickHouse Cloud, either by deploying a new local collector (Docker run or Docker Comp",
+      "infra-clickhouse: Sets up and manages ClickHouse using the clickhousectl CLI — installs and runs a local ClickHouse server for development, and creates managed ClickHouse Cloud services for producti",
+      "infra-postgres: Sets up and manages Postgres using the clickhousectl CLI — runs a local Docker-backed Postgres for development, and creates and operates managed ClickHouse Cloud Postgres services "
+    ]
+  },
+  {
+    "source": "https://github.com/cloudflare/skills",
+    "revision": "626547c06881a20b3322bdc2ed6e6451b33a4fb6",
+    "included": 14,
+    "excluded": [],
+    "patterns": [
+      "agents-sdk: Build, debug, or review Cloudflare Agents SDK applications using the agents package.",
+      "cloudflare: Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for architecture and product selection, including when the user describes ",
+      "cloudflare-email-service: Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration.",
+      "cloudflare-one: Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migrations for migration planning from other vendors.",
+      "cloudflare-one-migrations: Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parity gaps, and rollout.",
+      "durable-objects: Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination.",
+      "nextjs-on-cloudflare: Build, migrate, and deploy Next.js apps on Cloudflare Workers with vinext. Use when starting a Next.js project on Cloudflare, moving an existing app to Workers, choosing between vi",
+      "sandbox-migrate-to-next: Migrate Cloudflare Sandbox apps from stable @cloudflare/sandbox to @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-next for apps already on the preview.",
+      "sandbox-next: Build or maintain Cloudflare Sandbox apps on @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-migrate-to-next when porting a stable app.",
+      "sandbox-stable: Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview apps and sandbox-migrate-to-next for stable-to-preview migrations.",
+      "turnstile-spin: Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including server-side Siteverify.",
+      "web-perf: Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance scores.",
+      "workers-best-practices: Cloudflare Workers best practices for production applications. Use when writing, reviewing, or configuring Workers.",
+      "wrangler: Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, Previews, deployment, and Cloudflare resource management."
+    ]
+  },
+  {
+    "source": "https://github.com/cypress-io/ai-toolkit",
+    "revision": "da6ea17dfa674a2b68908d823e37f5797d5be238",
+    "included": 5,
+    "excluded": [],
+    "patterns": [
+      "cypress-author: Creates, updates, and fixes Cypress tests (E2E/end-to-end and component tests). Use when the user asks to create tests, add tests, write tests, update tests, test this file/compone",
+      "cypress-cloud-cli: Runs the cy-cloud CLI to inspect Cypress Cloud organizations, projects, runs, specs, tests, failure screenshots, and Test Replay data. Use when the user mentions Cypress Cloud, cy-",
+      "cypress-docs: Search and extract Cypress information from official documentation (docs.cypress.io, cypress.io); prefer LLM markdown under /llm/* and refuse unverified API or behavior claims.",
+      "cypress-explain: Explains Cypress tests (E2E and component tests), and answers questions about Cypress use and behavior. Use when the user asks to explain how a test works, explain how Cypress work",
+      "cypress-tap: Drives a running Cypress open-mode session through `cypress tap` to run and rerun specs, wait for fresh results, inspect reporter and command logs, and query or rewind the app unde"
+    ]
+  },
+  {
+    "source": "https://github.com/expo/skills",
+    "revision": "c0dadf355d4caa4e1720de372f0f8766df1a8978",
+    "included": 26,
+    "excluded": [],
+    "patterns": [
+      "expo-skill-eval: Evaluate Expo skills in this repo end-to-end - trigger accuracy, generated code quality, and runtime screenshots on iOS simulator and Android emulator via Expo Go (web optional). U",
+      "eas-app-stores: EAS service (paid). Build and submit iOS and Android apps with EAS to TestFlight, the App Store, or Google Play. Supports Expo and other React Native projects, plus existing native",
+      "eas-hosting: EAS service (paid). Deploy Expo websites and Expo Router API routes to EAS Hosting - export the web bundle, run eas deploy for production and PR preview URLs, manage environment se",
+      "eas-observe: EAS service (paid). Use for anything related to EAS Observe - adding `expo-observe` to an Expo project (AppMetricsRoot/ObserveRoot HOC, markInteractive and ObserveInteractiveMarker",
+      "eas-simulator: EAS service (paid). Run and control a user's app on a remote iOS/Android simulator hosted on EAS cloud. Read before running any `eas simulator:*` commands - it has the current synt",
+      "eas-update: EAS service (paid). Configure and use EAS Update for over-the-air JavaScript and asset updates with expo-updates and EAS CLI. Use when setting up OTA updates, running eas update:co",
+      "eas-update-insights: EAS service (paid). Check the health of published EAS Update: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per chann",
+      "eas-workflows: EAS service (paid). Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, ment",
+      "expo-animation: Framework (OSS). Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs on, ",
+      "expo-app-clip: Framework (OSS). Add an iOS App Clip target to an Expo app. Use when the user mentions App Clip, AASA, apple-app-site-association, appclips, smart app banner, or wants to ship a li",
+      "expo-brownfield: Framework (OSS). Integrate Expo and React Native into an existing native iOS or Android app. Use for brownfield, embedding a React Native screen in SwiftUI/UIKit or Kotlin, or AAR/",
+      "expo-data-fetching: Framework (OSS). Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, l",
+      "expo-design-system: Framework (OSS). Build and maintain a design system inside an Expo app - a reusable theme of design tokens (color, spacing, typography, radius, shadow, motion), reusable component ",
+      "expo-dev-client: Framework (OSS). Build and distribute Expo development clients locally or via TestFlight for internal testing. For production TestFlight releases and store submission, use the eas-",
+      "expo-dom: Framework (OSS). Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incrementally. For the end-to-end migration of a whole ",
+      "expo-examples: Framework (OSS). Expo's official example projects - the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI, maps, Reanimated, SQLite, Skia, NativeWind",
+      "expo-module: Framework (OSS). Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Covers module definition DSL, native views, sh",
+      "expo-native-ui: Framework (OSS). Build beautiful, native-feeling Expo screens. Covers Apple HIG styling, semantic colors, native controls, SF Symbols, media, visual effects, gradients, storage, an",
+      "expo-overview: Framework (OSS). Entry point and router for every Expo or EAS task. Load this skill first — before writing code and before choosing another expo-* / eas-* skill — when the request,",
+      "expo-project-structure: Framework (OSS). Folder structure for a new Expo app. Use when scaffolding or laying out a new Expo project with Expo Router, or deciding where a file should live in one. For new p",
+      "expo-router: Framework (OSS). Navigation and routing for Expo Router. Covers file-based routes, groups and dynamic routes, folder organization, Link with previews and context menus, native Stac",
+      "expo-skill-feedback: Submit feedback on an Expo skill—or Expo itself—and control bundled anonymous usage telemetry (off by default / opt-in). Submit feedback with: npx --yes submit-expo-feedback@latest",
+      "expo-ui: Framework (OSS). Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android. Default to @expo/ui for sheets (BottomSheet), pickers, sliders, togg",
+      "expo-upgrade: Framework (OSS). Guidelines for upgrading Expo SDK versions and fixing dependency issues",
+      "expo-web-to-native: Framework (OSS). Migrate an existing web React app to a native iOS/Android app with Expo. Use when the user wants to turn a website into a mobile app, port a Next.js/Vite/CRA React",
+      "expo-migrate-module: Framework (OSS). Migrate an existing Apple/Swift Expo native module from the Expo Modules API 1.0 definition DSL to the 2.0 macro API (sometimes called v2) while preserving its Jav"
+    ]
+  },
+  {
+    "source": "https://github.com/firecrawl/skills",
+    "revision": "3a410054eb2a4bbb1545d0fd88d4cb282f64624f",
+    "included": 34,
+    "excluded": [],
+    "patterns": [
+      "firecrawl-build: Integrate Firecrawl into application code whenever a product, agent, or workflow needs web data inside the app — web search, live search results, page scraping, structured extracti",
+      "firecrawl-build-interact: Integrate Firecrawl `/interact` into product code for dynamic pages and browser actions after scraping. Use when a feature needs clicks, form fills, pagination, authentication-awar",
+      "firecrawl-build-onboarding: Get Firecrawl credentials and SDK setup into a project. Use when an application needs `FIRECRAWL_API_KEY`, when an agent should add Firecrawl to `.env`, when the user wants to auth",
+      "firecrawl-build-scrape: Integrate Firecrawl `/scrape` into product code for single-page extraction. Use when an app already has a URL and needs markdown, HTML, links, screenshots, metadata, or structured ",
+      "firecrawl-build-search: Integrate Firecrawl `/search` into product code and agent workflows. Use when an app needs discovery before extraction, when the feature starts with a query instead of a URL, or wh",
+      "firecrawl: Any live-web task via the Firecrawl CLI — including ordinary web research: searching the web, reading or extracting pages, gathering sources, discovering site URLs, bulk extraction",
+      "firecrawl-agent: Autonomously navigate websites and extract structured data across pages. Use when the task requires navigation or no suitable ready-made workflow or data provider covers it.",
+      "firecrawl-alexandria: Find a direct path to structured data through ready-made workflows, data APIs, and indexes. Follow the search skill to discover and inspect tools, then the scrape skill to execute ",
+      "firecrawl-crawl: Bulk-extract many pages from one site or section. Use for \"crawl\", \"everything under /docs\", or content spanning linked pages.\n",
+      "firecrawl-developer-index: Search an index of public repositories, GitHub issues, merged pull requests, repository READMEs, and curated documentation sites. Use when a programming question needs external doc",
+      "firecrawl-download: Save a site or section as local files (markdown, screenshots). Use for \"download the site\", offline docs, or a local copy for reference.\n",
+      "firecrawl-interact: Drive a live browser on a scraped page: click, fill forms, log in, paginate, infinite-scroll. Use when content requires interaction or a scrape failed or returned incomplete conten",
+      "firecrawl-map: Discover and list a site's URLs, with search filtering. Use for \"map the site\" or \"find the URL for\" requests — when the user knows the site but not the exact page, or wants site s",
+      "firecrawl-monitor: Alert by webhook/email on web changes — use for \"monitor/watch/track/alert me when\": recurring checks on known URLs (prefer over repeated one-off scrapes) or web-wide watches for n",
+      "firecrawl-parse: Convert a local file (PDF, DOCX, XLSX, HTML, …) to markdown, or answer questions about its content. Use whenever the input is a file path, not a URL.\n",
+      "firecrawl-research-index: Find the papers that answer a research query in Firecrawl's research paper index — a corpus of paper abstracts whose largest share is biomedical and life-science literature (PubMed",
+      "firecrawl-scrape: Read a known webpage or execute a discovered workflow or data-provider capability. Use for page content or structured results once the URL or tool is selected.",
+      "firecrawl-search: Find web sources with query-relevant page excerpts and optional full-page content, and discover workflows, data APIs, and indexes. Use for web research or finding structured record",
+      "firecrawl-company-directories: Extract structured company lists from directories with Firecrawl. Use for scraping YC, Crunchbase, Product Hunt, G2, startup directories, category directories, or custom company da",
+      "firecrawl-competitive-intel: Monitor competitor pricing, features, changelogs, dashboards, and product changes with Firecrawl. Use for recurring competitive intelligence, pricing tier extraction, feature chang",
+      "firecrawl-dashboard-reporting: Pull metrics from analytics dashboards and internal web tools with Firecrawl browser. Use when the user needs dashboard reporting, cross-platform metric summaries, authenticated an",
+      "firecrawl-deep-research: Produce an intensive, cited analytical report: executive summary, multi-angle\nfindings, contrarian views, open questions, and full sources. Use only when the\nuser needs rigorous sy",
+      "firecrawl-demo-walkthrough: Walk through a product's key flows with Firecrawl browser and produce a structured UX/product walkthrough. Use for signup, onboarding, pricing, docs, dashboard, product demo prep, ",
+      "firecrawl-knowledge-base: Build a knowledge base from web content with Firecrawl. Use for local reference docs, RAG-ready chunks, fine-tuning datasets, documentation mirrors, topic corpora, or LLM-ready mar",
+      "firecrawl-knowledge-ingest: Ingest public or authenticated knowledge bases and docs portals with Firecrawl browser. Use for JS-heavy docs, login-gated portals, paginated help centers, support knowledge bases,",
+      "firecrawl-lead-gen: Generate structured lead lists from prospect databases and web directories with Firecrawl browser. Use for finding prospects by role, company type, industry, stage, location, techn",
+      "firecrawl-lead-research: Produce pre-meeting lead intelligence briefs with Firecrawl. Use when the user needs company research, person research, recent news, talking points, pain points, or outreach prepar",
+      "firecrawl-market-research: Extract market, financial, earnings, industry, and company metrics with Firecrawl. Use when the user asks for market research, industry trends, public company data, financial compa",
+      "firecrawl-qa: QA test a live website with Firecrawl browser and scrape evidence. Use when the user wants exploratory QA, form testing, navigation/link checks, responsive checks, performance obse",
+      "firecrawl-research-papers: Find and synthesize research papers, whitepapers, PDFs, technical reports, and academic sources with Firecrawl Research, using semantic paper search, related-paper expansion, and i",
+      "firecrawl-seo-audit: Audit a website's SEO with Firecrawl. Use when the user asks for an SEO audit, metadata and heading review, sitemap/site-structure analysis, keyword opportunities, competitor SERP ",
+      "firecrawl-shop: Research products across the web with Firecrawl and produce a shopping recommendation or cart-ready summary. Use when the user wants to compare products, find the best option, eval",
+      "firecrawl-website-design-clone: Extract any website's design system into an agent-ready DESIGN.md using Firecrawl scrape evidence. Use when the user wants colors, fonts, spacing, components, layout patterns, or b",
+      "firecrawl-workflows: Run outcome-focused Firecrawl workflows that produce deliverables such as research reports, literature reviews over published papers, SEO audits, QA reports, lead lists, knowledge "
+    ]
+  },
+  {
+    "source": "https://github.com/fvadicamo/dev-agent-skills",
+    "revision": "8e710c57b4aa34fec63752ccf04a47adb4a8be65",
+    "included": 7,
+    "excluded": [],
+    "patterns": [
+      "decision-records: Creates, supersedes and validates decision records (ADRs) against the convention a collection already follows, instead of imposing a published one. Use when the user wants to recor",
+      "git-commit: Creates git commits following Conventional Commits format with type/scope/subject. Use when user wants to commit changes, create commit, save work, or stage and commit. Enforces pr",
+      "github-pr-creation: Creates GitHub Pull Requests with automated validation and task tracking. Use when user wants to create PR, open pull request, submit for review, or check if ready for PR. Analyzes",
+      "github-pr-merge: Merges GitHub Pull Requests after validating pre-merge checklist. Use when user wants to merge PR, close PR, finalize PR, complete merge, approve and merge, or execute merge. Runs ",
+      "github-pr-review: Handles PR review comments and feedback resolution. Use when user wants to resolve PR comments, handle review feedback, fix review comments, address PR review, check review status,",
+      "privacy-guard: Prevents private infrastructure details (node hostnames, internal project names, local usernames and personal emails, absolute home paths, private and VPN IP ranges) from leaking i",
+      "creating-skills: Guide for creating Claude Code skills following Anthropic's official best practices. Use when user wants to create a new skill, build a skill, write SKILL.md, update an existing sk"
+    ]
+  },
+  {
+    "source": "https://github.com/getsentry/skills",
+    "revision": "8ca687957041ab9ece4562aad2b399b8dc8e4cae",
+    "included": 25,
+    "excluded": [
+      {
+        "path": "skills\\django-perf-review\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\security-review\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      }
+    ],
+    "patterns": [
+      "agents-md: Creates and maintains concise AGENTS.md and CLAUDE.md project instruction files. Use when asked to create AGENTS.md, update AGENTS.md, maintain agent docs, set up CLAUDE.md, docume",
+      "blog-writing-guide: Write, review, and improve blog posts for the Sentry engineering blog following Sentry's specific writing standards, voice, and quality bar. Use this skill whenever someone asks to",
+      "brand-guidelines: Write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing copy, or any user-facing",
+      "claude-settings-audit: Analyze a repository to generate recommended Claude Code settings.json permissions. Use when setting up a new project, auditing existing settings, or determining which read-only ba",
+      "code-review: Perform code reviews following Sentry engineering practices. Use when reviewing pull requests, examining code changes, or providing feedback on code quality. Covers security, perfo",
+      "code-simplifier: Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to \"simplify code\", \"clean up code\", \"refactor for clar",
+      "commit: Use for every request to commit changes or draft a commit message. Creates Sentry-style conventional commits with issue references.",
+      "create-branch: Create a git branch following Sentry naming conventions. Use when asked to \"create a branch\", \"new branch\", \"start a branch\", \"make a branch\", \"switch to a new branch\", or when sta",
+      "django-access-review: Django access control and IDOR security review. Use when reviewing Django views, DRF viewsets, ORM queries, or any Python/Django code handling user authorization. Trigger keywords:",
+      "doc-coauthoring: Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structur",
+      "document-api-endpoint: Document and type a Sentry API endpoint. Write or fix @extend_schema decorators, specify response TypedDicts, type request parameters, correct type drift between the declared schem",
+      "find-bugs: Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current bra",
+      "gh-review-requests: Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to \"find PRs I need to review\", \"show my r",
+      "gha-security-review: GitHub Actions security review for workflow exploitation vulnerabilities. Use when asked to \"review GitHub Actions\", \"audit workflows\", \"check CI security\", \"GHA security\", \"workfl",
+      "iterate-pr: Iterate on a PR until actionable CI passes and high/medium review feedback is addressed. Use for PR CI failures, review feedback, or green-check loops; do not wait for human approv",
+      "pr-link-issue: Append a GitHub issue link and its Linear ticket to the current PR's description. Use when asked to \"link issue to pr\", \"fill in issue and linear in pr\", \"add issue refs to pr\", or",
+      "pr-writer: Create or refresh reviewer-facing PR titles and descriptions. Use when opening a PR, updating its title or body, or preparing branch changes for review.",
+      "presentation-creator: Create data-driven presentation slides using React, Vite, and Recharts with Sentry branding. Use when asked to \"create a presentation\", \"build slides\", \"make a deck\", \"create a dat",
+      "prompt-optimizer: Creates, optimizes, and iteratively refines agent prompts, system prompts, developer prompts, and reusable prompt templates. Use when asked to improve a prompt, optimize a system p",
+      "skill-scanner: Scan agent skills for security issues. Use when asked to \"scan a skill\", \"audit a skill\", \"review skill security\", \"check skill for injection\", \"validate SKILL.md\", or assess wheth",
+      "skill-writer: Create, synthesize, and iteratively improve agent skills following the Agent Skills specification. Use when asked to \"create a skill\", \"write a skill\", \"synthesize sources into a s",
+      "sred-project-organizer: Take a list of projects and their related documentation, and organize them into the SRED format for submission.",
+      "sred-work-summary: Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects.",
+      "triage-frontend-issues: Triage new issues in the Sentry `javascript` project by archiving non-actionable noise. Use when asked to \"triage issues\", \"triage the javascript project\", \"archive non-actionable ",
+      "typing-exclusion-worker: Python typing exclusion worker: remove assigned mypy exclusion modules in small scoped batches, fix typing issues, run validation, and produce a structured completion summary. Use "
+    ]
+  },
+  {
+    "source": "https://github.com/google-gemini/gemini-skills",
+    "revision": "6fee1bec62d6a0ca92c1d0e34d62ff11f70c498a",
+    "included": 3,
+    "excluded": [],
+    "patterns": [
+      "gemini-api-dev: Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, speech generation (TT",
+      "gemini-live-api-dev: Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API, or migrating legacy Live models (2.0/2.5/3.1) to Gemini 3.8 Live. Covers WebS",
+      "gemini-omni-flash-api: Use this skill for generative video editing, text-to-video, image-referenced video generation, first-frame-to-video, first-and-last-frame transitions, and video extensions using Ge"
+    ]
+  },
+  {
+    "source": "https://github.com/hashicorp/agent-skills",
+    "revision": "f706481af9b8fedb66de909f6243ad29601afa0c",
+    "included": 0,
+    "excluded": [
+      {
+        "path": "plugins\\packer\\skills\\aws-ami-builder\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\packer\\skills\\azure-image-builder\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\packer\\skills\\push-to-registry\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\packer\\skills\\windows-builder\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\azure-verified-modules\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\new-terraform-provider\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\provider-actions\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\provider-configuration\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\provider-docs\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\provider-ephemeral-resources\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\provider-framework-migration\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\provider-resources\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\provider-test-patterns\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\refactor-module\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\run-acceptance-tests\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\terraform-policy\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\terraform-search-import\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\terraform-stacks\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\terraform-style-guide\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\terraform\\skills\\terraform-test\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      }
+    ],
+    "patterns": []
+  },
+  {
+    "source": "https://github.com/huggingface/skills",
+    "revision": "80f9fa530e46f4ae642fcb9e1725bad0e1979395",
+    "included": 26,
+    "excluded": [],
+    "patterns": [
+      "hf-mcp: Use Hugging Face Hub via MCP server tools. Search models, datasets, Spaces, papers. Get repo details, fetch documentation, run compute jobs, and use Gradio Spaces as AI tools. Avai",
+      "hf-cli: Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. Use when: handling au",
+      "hf-cloud-aws-context-discovery: Discover the user's local AWS context (active profile, region, account ID, caller identity) at the start of any AWS task. Use this skill before any other AWS work — deploying to Sa",
+      "hf-cloud-python-env-setup: Set up an isolated Python environment for SageMaker / AWS work, with the right Python version and current boto3. Use this skill whenever Python code will be executed for a SageMake",
+      "hf-cloud-sagemaker-deployment-planner: Plan and coordinate the deployment of a model to Amazon SageMaker AI. Use this skill whenever the user wants to deploy, host, serve, or expose a model on SageMaker or AWS — includi",
+      "hf-cloud-sagemaker-iam-preflight: Ensure a usable SageMaker execution role exists before deploying or training. Use this skill whenever about to create a SageMaker endpoint, model, training job, or any resource tha",
+      "hf-cloud-sagemaker-production-defaults: Create a SageMaker endpoint (real-time, real-time scale-to-zero, or async) with autoscaling, CloudWatch alarms, and tagging enabled by default. Use this skill whenever about to cre",
+      "hf-cloud-serving-image-selection: Pick the right serving container for a SageMaker model deployment and find its current image URI. Use this skill whenever about to deploy a model to a SageMaker endpoint and an ima",
+      "hf-mem: Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub",
+      "huggingface-best: Use when the user asks about finding the best, top, or recommended model for a task, wants to know what AI model to use, or wants to compare models by benchmark scores. Triggers on",
+      "huggingface-community-evals: Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers /",
+      "huggingface-datasets: Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or st",
+      "huggingface-gradio: Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
+      "huggingface-llm-trainer: Train or fine-tune language and vision models using TRL (Transformer Reinforcement Learning) or Unsloth with Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward mode",
+      "huggingface-local-models: Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conver",
+      "huggingface-lora-space-builder: Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. Use when someone asks to create, generate, ship, or publish a Space, demo, Gradio app, or playgroun",
+      "huggingface-paper-publisher: Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-",
+      "huggingface-papers: Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. ",
+      "huggingface-spaces: Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference provid",
+      "huggingface-tool-builder: Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combini",
+      "huggingface-trackio: Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing log",
+      "huggingface-vision-trainer: Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus an",
+      "huggingface-zerogpu: AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU. Use when writing or reviewing code that uses `@spaces.GPU`, configuring `python_version` or `requiremen",
+      "train-sentence-transformers: Train or fine-tune sentence-transformers models across `SentenceTransformer` (bi-encoder, dense or static embedding model for retrieval, similarity, clustering, classification, par",
+      "transformers-js: Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer visi",
+      "trl-training: Train and fine-tune transformer language models using TRL (Transformers Reinforcement Learning). Supports SFT, DPO, GRPO, KTO, RLOO and Reward Model training via CLI commands."
+    ]
+  },
+  {
+    "source": "https://github.com/lackeyjb/playwright-skill",
+    "revision": "dd47a6a023e249eb1b36e9e943eab89d0900865d",
+    "included": 1,
+    "excluded": [],
+    "patterns": [
+      "playwright-skill: Complete browser automation with Playwright. Auto-detects dev servers, writes reusable test scripts, and supports screenshots, responsive checks, UX validation, login flows, link c"
+    ]
+  },
+  {
+    "source": "https://github.com/mattpocock/skills",
+    "revision": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+    "included": 38,
+    "excluded": [],
+    "patterns": [
+      "ask-matt: Ask which skill or flow fits your situation. A router over the skills in this repo.",
+      "code-review: Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does",
+      "codebase-design: Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code m",
+      "diagnosing-bugs: Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+      "domain-modeling: Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a CONTEXT.md, or recording or editing an ADR.",
+      "grill-with-docs: A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+      "implement: Implement a piece of work based on a spec or set of tickets.",
+      "improve-codebase-architecture: Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+      "prototype: Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+      "research: Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gat",
+      "resolving-merge-conflicts: Use when you need to resolve an in-progress git merge/rebase conflict.",
+      "setup-matt-pocock-skills: Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+      "tdd: Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+      "to-spec: Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed.",
+      "to-tickets: Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in one fi",
+      "triage: Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs.",
+      "wayfinder: Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the dest",
+      "wizard: Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an u",
+      "claude-handoff: Hand the current conversation off to a fresh background agent that picks up the work immediately.",
+      "implement-spec: Implement a specification in code.",
+      "loop-me: Grill me about specs for the workflows I want to build, within this workspace.",
+      "pr: Use when writing a PR body.",
+      "retro: Conduct a retrospective on a coding session.",
+      "setup-ts-deep-modules: Wire dependency-cruiser into a TypeScript repo so each package is a deep module, with implementation hidden in subfolders and reachable only through its entry-point files. User-inv",
+      "writing-beats: Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+      "writing-fragments: Writing, explore: mine raw fragments, no structure yet.",
+      "writing-shape: Writing, exploit: shape raw material into an article, paragraph by paragraph.",
+      "git-guardrails-claude-code: Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations",
+      "migrate-to-shoehorn: Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+      "scaffold-exercises: Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set ",
+      "setup-pre-commit: Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-s",
+      "grill-me: A relentless interview to sharpen a plan or design.",
+      "grilling: Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+      "handoff: Compact the current conversation into a handoff document for another agent to pick up.",
+      "teach: Teach the user a new skill or concept, within this workspace.",
+      "to-questionnaire: Turn a decision you can't fully answer into a questionnaire for someone else to fill in.",
+      "wait-what: Stop. That last message did not land: re-pitch it.",
+      "writing-for-agents: Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md."
+    ]
+  },
+  {
+    "source": "https://github.com/microsoft/azure-skills",
+    "revision": "f07c05364353925f7c8b0e474aa95afa291bce54",
+    "included": 80,
+    "excluded": [
+      {
+        "path": ".github\\plugins\\azure-skills\\skills\\azure-app-onboard\\deploy\\SKILL.md",
+        "reason": "Invalid or incompatible frontmatter"
+      },
+      {
+        "path": ".github\\plugins\\azure-skills\\skills\\azure-app-onboard\\prepare\\SKILL.md",
+        "reason": "Invalid or incompatible frontmatter"
+      },
+      {
+        "path": ".github\\plugins\\azure-skills\\skills\\azure-app-onboard\\scaffold\\SKILL.md",
+        "reason": "Invalid or incompatible frontmatter"
+      },
+      {
+        "path": "skills\\azure-app-onboard\\deploy\\SKILL.md",
+        "reason": "Invalid or incompatible frontmatter"
+      },
+      {
+        "path": "skills\\azure-app-onboard\\prepare\\SKILL.md",
+        "reason": "Invalid or incompatible frontmatter"
+      },
+      {
+        "path": "skills\\azure-app-onboard\\scaffold\\SKILL.md",
+        "reason": "Invalid or incompatible frontmatter"
+      }
+    ],
+    "patterns": [
+      "cost-analysis: Analyze actual Azure spend, bill changes, and AKS or AI costs. WHEN: \"Azure cost breakdown\", \"most expensive resources\", \"why did my bill increase\", \"cost spike\", \"unexpected charg",
+      "cost-estimation: Forecast Azure spend and price planned resources or workloads. WHEN: \"forecast Azure spending\", \"project next month cost\", \"compare forecast to my planning target\", \"how much will ",
+      "cost-governance: Govern Azure costs with budgets, alerts, tags, and policy restrictions. WHEN: \"Azure budget health\", \"configured budget overrun\", \"list Azure budgets\", \"create Azure budget\", \"budg",
+      "cost-optimization: Optimize existing Azure resources and analyze Reservations or Savings Plans. WHEN: \"optimize Azure costs\", \"reduce cloud spending\", \"rightsize resources\", \"find idle resources\", \"o",
+      "azure-kusto-graph: Build and query Kusto graphs from natural language. Covers transient graphs (make-graph), persistent graph models/snapshots, pattern matching (graph-match), shortest paths, connect",
+      "azure-kusto-irql: Compose IRQL (Incident Response Query Language) queries for Kusto cybersecurity investigations. Translates natural language hunting questions into composable IRQL pipelines using G",
+      "azure-kusto-irql-graph: Apply IRQL graph functions to KQL or IRQL query results for Kusto Explorer visualization. Generates Lift_To_Graph mappings and composes Graph_Render_View, Graph_Fold_By_Property, E",
+      "azure-local: Plan, deploy, operate, and troubleshoot Azure Local (formerly Azure Stack HCI): sizing and prerequisites, Arc registration, lifecycle updates, workloads (Azure Local VMs, AKS on Az",
+      "azure-local-multi-rack: Plan, deploy, operate, and troubleshoot multi-rack (rack scale) deployments of Azure Local — preintegrated racks scaling to hundreds of machines, built on Network Fabric Controller",
+      "airunway-aks-setup: Set up AI Runway on AKS — from bare cluster to running model. Covers cluster verification, controller install, GPU assessment, provider setup, and first deployment. WHEN: \"setup AI",
+      "appinsights-instrumentation: Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references. WHEN: how to instrument app, App Insights ",
+      "azure-ai: Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query",
+      "azure-aigateway: Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI model governance, MCP ",
+      "azure-app-onboard: End-to-end orchestrator: from a business idea, app idea, or existing app to running Azure deployment with cost estimates and pre-deploy approval. Analyzes your app, auto-detects th",
+      "azure-app-onboard-prereq: Assess whether source code is ready to deploy to Azure — the check BEFORE infrastructure work. Evaluates build health, app completeness, dependencies and local services, stack comp",
+      "azure-cloud-migrate: Assess and migrate cross-cloud workloads to Azure with reports and code conversion. Supports Lambda→Functions, Beanstalk/Heroku/App Engine→App Service, Fargate/Kubernetes/Cloud Run",
+      "azure-compliance: Run Azure compliance and security audits with azqr plus Key Vault expiration checks. Covers best-practice assessment, resource review, policy/compliance validation, and security po",
+      "azure-compute: Azure VM/VMSS router. WHEN: create / provision / deploy / spin-up VM, recommend VM size, compare VM pricing, VMSS, scale set, autoscale, burstable, lightweight server, website, bac",
+      "azure-deploy: Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/deployment-plan.md and infrastructure files. DO NOT use this skill when the user asks to CREAT",
+      "azure-diagnostics: Debug Azure production issues on Azure using AppLens, Azure Monitor, resource health, and safe triage. WHEN: debug production issues, troubleshoot app service, app service high CPU",
+      "azure-enterprise-infra-planner: Architect and provision enterprise Azure infrastructure from workload descriptions. For cloud architects and platform engineers planning networking, identity, security, compliance,",
+      "azure-kubernetes-app-deploy: Use when deploying an existing web application or API to an already-running Azure Kubernetes Service cluster. Detects the framework, generates a Dockerfile and Kubernetes manifests",
+      "azure-kubernetes-automatic-readiness: Assess Kubernetes workloads and cluster configuration for AKS Automatic compatibility. Identifies incompatibilities, generates fixes, and guides migration from AKS Standard to AKS ",
+      "azure-kubernetes: Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters. Covers Day-0 checklist, SKU selection (Automatic vs Standard), networking options (private API",
+      "azure-kusto: Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto database queries, Azure Data Ex",
+      "azure-messaging: Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK conf",
+      "azure-prepare: Prepare azd-based Azure projects for deployment: generates azure.yaml, infrastructure (Bicep/Terraform), and Dockerfiles for the Azure Developer CLI (azd) workflow. USE ONLY when t",
+      "azure-quotas: Check/manage Azure quotas and usage across providers. For deployment planning, capacity validation, region selection. WHEN: \"check quotas\", \"service limits\", \"current usage\", \"requ",
+      "azure-reliability: Assess and improve the reliability posture of PaaS Applications (Azure Functions and Azure App Service). Scans deployed resources for zone redundancy, ZRS storage, health probes, a",
+      "azure-resource-lookup: List, find, and show Azure resources across subscriptions or resource groups. Handles prompts like \"list the websites in my subscription\", \"list my web apps\", \"show my app services",
+      "azure-resource-visualizer: Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. WHEN: create architecture diagram, visuali",
+      "azure-storage: Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Answers questions about storage access tiers (hot, cool, cold, archive), wh",
+      "azure-upgrade: Assess and upgrade Azure workloads between plans, tiers, or SKUs, or modernize Azure SDK dependencies in source code. WHEN: upgrade Consumption to Flex Consumption, upgrade Azure F",
+      "azure-validate: Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), RBAC role assignments, managed identity permissions, and prere",
+      "discover-azure-skills: Searches the Azure skills catalog and recommends installable agent skills by matching an Azure task to skill metadata and plugin installation guidance. WHEN: before starting any ta",
+      "entra-agent-id: Provision Microsoft Entra Agent Identity Blueprints, BlueprintPrincipals, and per-instance Agent Identities via Microsoft Graph, and configure OAuth 2.0 token exchange (fmi_path, O",
+      "entra-app-registration: Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, configure OAuth, set up authent",
+      "finetuning: Fine-tune models on Microsoft Foundry using SFT (supervised), DPO (preference), or RFT (reinforcement with graders). Covers dataset preparation, training job submission, deployment",
+      "capacity: Discovers available Azure OpenAI model capacity across regions and projects. Analyzes quota limits, compares availability, and recommends optimal deployment locations based on capa",
+      "customize: Interactive guided deployment flow for Azure OpenAI models with full customization control. Step-by-step selection of model version, SKU (GlobalStandard/Standard/ProvisionedManaged",
+      "preset: Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automatically checks current region first and shows alternatives if",
+      "deploy-model: Unified Azure OpenAI model deployment skill with intelligent intent-based routing. Handles quick preset deployments, fully customized deployments (version/SKU/capacity/RAI policy),",
+      "microsoft-foundry: Build, deploy, evaluate, optimize, fine-tune, and manage Microsoft Foundry agents, models, and resources end to end. USE FOR: foundry, azd ai agent, azd provision/deploy, hosted ag",
+      "python-appservice-deploy: Deploy Python (Flask/Django/FastAPI) code to Azure App Service Linux. WHEN: \"Flask App Service\", \"Django App Service\", \"FastAPI App Service\", \"deploy Python to App Service\". DO NOT",
+      "foundry-iq: Foundry IQ knowledge bases. WHEN: make local or Blob documents searchable; create/diagnose KBs; triage unsupported connectors or multi-source KB creation/reconfiguration; connect e",
+      "airunway-aks-setup: Set up AI Runway on AKS — from bare cluster to running model. Covers cluster verification, controller install, GPU assessment, provider setup, and first deployment. WHEN: \"setup AI",
+      "appinsights-instrumentation: Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references. WHEN: how to instrument app, App Insights ",
+      "azure-ai: Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query",
+      "azure-aigateway: Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI model governance, MCP ",
+      "azure-app-onboard: End-to-end orchestrator: from a business idea, app idea, or existing app to running Azure deployment with cost estimates and pre-deploy approval. Analyzes your app, auto-detects th",
+      "azure-app-onboard-prereq: Assess whether source code is ready to deploy to Azure — the check BEFORE infrastructure work. Evaluates build health, app completeness, dependencies and local services, stack comp",
+      "azure-cloud-migrate: Assess and migrate cross-cloud workloads to Azure with reports and code conversion. Supports Lambda→Functions, Beanstalk/Heroku/App Engine→App Service, Fargate/Kubernetes/Cloud Run",
+      "azure-compliance: Run Azure compliance and security audits with azqr plus Key Vault expiration checks. Covers best-practice assessment, resource review, policy/compliance validation, and security po",
+      "azure-compute: Azure VM/VMSS router. WHEN: create / provision / deploy / spin-up VM, recommend VM size, compare VM pricing, VMSS, scale set, autoscale, burstable, lightweight server, website, bac",
+      "azure-deploy: Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/deployment-plan.md and infrastructure files. DO NOT use this skill when the user asks to CREAT",
+      "azure-diagnostics: Debug Azure production issues on Azure using AppLens, Azure Monitor, resource health, and safe triage. WHEN: debug production issues, troubleshoot app service, app service high CPU",
+      "azure-enterprise-infra-planner: Architect and provision enterprise Azure infrastructure from workload descriptions. For cloud architects and platform engineers planning networking, identity, security, compliance,",
+      "azure-kubernetes-app-deploy: Use when deploying an existing web application or API to an already-running Azure Kubernetes Service cluster. Detects the framework, generates a Dockerfile and Kubernetes manifests",
+      "azure-kubernetes-automatic-readiness: Assess Kubernetes workloads and cluster configuration for AKS Automatic compatibility. Identifies incompatibilities, generates fixes, and guides migration from AKS Standard to AKS ",
+      "azure-kubernetes: Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters. Covers Day-0 checklist, SKU selection (Automatic vs Standard), networking options (private API",
+      "azure-kusto: Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto database queries, Azure Data Ex",
+      "azure-messaging: Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK conf",
+      "azure-prepare: Prepare azd-based Azure projects for deployment: generates azure.yaml, infrastructure (Bicep/Terraform), and Dockerfiles for the Azure Developer CLI (azd) workflow. USE ONLY when t",
+      "azure-quotas: Check/manage Azure quotas and usage across providers. For deployment planning, capacity validation, region selection. WHEN: \"check quotas\", \"service limits\", \"current usage\", \"requ",
+      "azure-reliability: Assess and improve the reliability posture of PaaS Applications (Azure Functions and Azure App Service). Scans deployed resources for zone redundancy, ZRS storage, health probes, a",
+      "azure-resource-lookup: List, find, and show Azure resources across subscriptions or resource groups. Handles prompts like \"list the websites in my subscription\", \"list my web apps\", \"show my app services",
+      "azure-resource-visualizer: Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. WHEN: create architecture diagram, visuali",
+      "azure-storage: Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Answers questions about storage access tiers (hot, cool, cold, archive), wh",
+      "azure-upgrade: Assess and upgrade Azure workloads between plans, tiers, or SKUs, or modernize Azure SDK dependencies in source code. WHEN: upgrade Consumption to Flex Consumption, upgrade Azure F",
+      "azure-validate: Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), RBAC role assignments, managed identity permissions, and prere",
+      "discover-azure-skills: Searches the Azure skills catalog and recommends installable agent skills by matching an Azure task to skill metadata and plugin installation guidance. WHEN: before starting any ta",
+      "entra-agent-id: Provision Microsoft Entra Agent Identity Blueprints, BlueprintPrincipals, and per-instance Agent Identities via Microsoft Graph, and configure OAuth 2.0 token exchange (fmi_path, O",
+      "entra-app-registration: Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, configure OAuth, set up authent",
+      "finetuning: Fine-tune models on Microsoft Foundry using SFT (supervised), DPO (preference), or RFT (reinforcement with graders). Covers dataset preparation, training job submission, deployment",
+      "capacity: Discovers available Azure OpenAI model capacity across regions and projects. Analyzes quota limits, compares availability, and recommends optimal deployment locations based on capa",
+      "customize: Interactive guided deployment flow for Azure OpenAI models with full customization control. Step-by-step selection of model version, SKU (GlobalStandard/Standard/ProvisionedManaged",
+      "preset: Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automatically checks current region first and shows alternatives if",
+      "deploy-model: Unified Azure OpenAI model deployment skill with intelligent intent-based routing. Handles quick preset deployments, fully customized deployments (version/SKU/capacity/RAI policy),",
+      "microsoft-foundry: Build, deploy, evaluate, optimize, fine-tune, and manage Microsoft Foundry agents, models, and resources end to end. USE FOR: foundry, azd ai agent, azd provision/deploy, hosted ag",
+      "python-appservice-deploy: Deploy Python (Flask/Django/FastAPI) code to Azure App Service Linux. WHEN: \"Flask App Service\", \"Django App Service\", \"FastAPI App Service\", \"deploy Python to App Service\". DO NOT"
+    ]
+  },
+  {
+    "source": "https://github.com/neondatabase/agent-skills",
+    "revision": "80164a28443aca7c82ac1a70aed836950d6c29ea",
+    "included": 16,
+    "excluded": [],
+    "patterns": [
+      "neon: Overview of Neon, a complete set of cloud backend primitives around Lakebase Postgres: Auth, Object Storage, Functions, and the AI Gateway. Start here to choose Neon for undecided ",
+      "neon-ai-gateway: One API and one credential for frontier and open-source LLMs, built into your Neon branch and powered by Databricks. Use when a user wants to call an LLM, add AI/chat/an agent to t",
+      "neon-auth: Add authentication to a new app. Use for \"add auth\", \"add login\", Neon Auth (Managed Better Auth), identity routing, sign-up, sign-in, password reset, email OTP, magic links, organ",
+      "neon-functions: Long-running, serverless Node.js HTTP functions deployed onto your Neon branch, with DATABASE_URL injected automatically and compute that runs next to your data. Use when a user wa",
+      "neon-object-storage: S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch. Use when a user wants object storage, a bucket, blob/",
+      "neon-postgres: Guides and best practices for working with Lakebase Postgres on Neon: connections, pooled vs direct, schema migrations, branching, autoscaling, scale-to-zero, instant restore, read",
+      "neon-postgres-branches: Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migration testing with real data, isolated test environments, sch",
+      "neon-postgres-egress-optimizer: Diagnose and fix excessive Postgres egress (network data transfer) in a codebase. Use when a user mentions high database bills, unexpected data transfer costs, network transfer cha",
+      "neon: Overview of Neon, a complete set of cloud backend primitives around Lakebase Postgres: Auth, Object Storage, Functions, and the AI Gateway. Start here to choose Neon for undecided ",
+      "neon-ai-gateway: One API and one credential for frontier and open-source LLMs, built into your Neon branch and powered by Databricks. Use when a user wants to call an LLM, add AI/chat/an agent to t",
+      "neon-auth: Add authentication to a new app. Use for \"add auth\", \"add login\", Neon Auth (Managed Better Auth), identity routing, sign-up, sign-in, password reset, email OTP, magic links, organ",
+      "neon-functions: Long-running, serverless Node.js HTTP functions deployed onto your Neon branch, with DATABASE_URL injected automatically and compute that runs next to your data. Use when a user wa",
+      "neon-object-storage: S3-compatible object storage that branches with your Neon project, so files and the database stay in sync across every branch. Use when a user wants object storage, a bucket, blob/",
+      "neon-postgres: Guides and best practices for working with Lakebase Postgres on Neon: connections, pooled vs direct, schema migrations, branching, autoscaling, scale-to-zero, instant restore, read",
+      "neon-postgres-branches: Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migration testing with real data, isolated test environments, sch",
+      "neon-postgres-egress-optimizer: Diagnose and fix excessive Postgres egress (network data transfer) in a codebase. Use when a user mentions high database bills, unexpected data transfer costs, network transfer cha"
+    ]
+  },
+  {
+    "source": "https://github.com/netlify/context-and-tools",
+    "revision": "00abfc7a5559bb209d584aa5a2c33515d6941550",
+    "included": 45,
+    "excluded": [],
+    "patterns": [
+      "netlify-access-control: Picks the right Netlify site-protection layer and disambiguates the three unrelated \"auth\" concepts users conflate — app-user login (Netlify Identity), site-load gating (Password P",
+      "netlify-agent-runner: Run AI agent tasks remotely on Netlify using Claude, Codex, or Gemini. Use when the user wants to run an AI agent on their site, get a second opinion from another model, or delegat",
+      "netlify-ai-gateway: Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, TypeSafe (Jev), or OpenRouter-hosted models (xAI/DeepSeek/Meta/Mistral/Qwen) from Netlify Functions or Edge ",
+      "netlify-blobs: Store and retrieve unstructured objects, files, and cache-like state on Netlify with the @netlify/blobs module. Use when persisting user file uploads (images/documents), caching co",
+      "netlify-caching: Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, and proxies. Use when you add caching or cache-control headers to a function response, tune cach",
+      "netlify-config: Configure Netlify builds and routing via netlify.toml, _redirects, and _headers. Use when setting a build command or publish directory, adding redirects or rewrites or proxies, add",
+      "netlify-database: Zero-config Postgres for Netlify apps via @netlify/database — querying data from Functions/Edge Functions, writing schema migrations, setting up Drizzle ORM, local dev with netlify",
+      "netlify-deploy: Create, configure, and manage Netlify deploys from code — reach for this when setting up Git continuous deployment, running netlify deploy or netlify deploy --prod from the CLI, wr",
+      "netlify-edge-functions: Write and configure Netlify Edge Functions — TypeScript/JavaScript handlers running in a Deno runtime at the network edge. Use when adding auth middleware or auth redirects, geoloc",
+      "netlify-forms: Serverless form handling on Netlify-hosted sites — detects HTML forms at deploy time, stores submissions, filters spam, and sends notifications. Use when adding a contact form, lea",
+      "netlify-frameworks: Deploy and configure web frameworks on Netlify — build settings and SSR/edge adapters plus local platform emulation and env vars. Use when setting up or fixing a framework deploy (",
+      "netlify-functions: Write, configure, and deploy Netlify serverless functions in TypeScript, JavaScript, or Go. Use this when adding an API endpoint or backend route, adding a contact form handler, wi",
+      "netlify-identity: Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket OAuth, server-side getUser() checks, role-based access contro",
+      "netlify-image-cdn: Transforms images on demand via Netlify Image CDN's /.netlify/images endpoint with query parameters for resizing/cropping/format/quality. Use when adding image optimization or resp",
+      "netlify-mcp-servers: Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an MCP server, exposing an app or API to AI agents as MCP tools, ",
+      "netlify-access-control: Picks the right Netlify site-protection layer and disambiguates the three unrelated \"auth\" concepts users conflate — app-user login (Netlify Identity), site-load gating (Password P",
+      "netlify-agent-runner: Run AI agent tasks remotely on Netlify using Claude, Codex, or Gemini. Use when the user wants to run an AI agent on their site, get a second opinion from another model, or delegat",
+      "netlify-ai-gateway: Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, TypeSafe (Jev), or OpenRouter-hosted models (xAI/DeepSeek/Meta/Mistral/Qwen) from Netlify Functions or Edge ",
+      "netlify-blobs: Store and retrieve unstructured objects, files, and cache-like state on Netlify with the @netlify/blobs module. Use when persisting user file uploads (images/documents), caching co",
+      "netlify-caching: Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, and proxies. Use when you add caching or cache-control headers to a function response, tune cach",
+      "netlify-config: Configure Netlify builds and routing via netlify.toml, _redirects, and _headers. Use when setting a build command or publish directory, adding redirects or rewrites or proxies, add",
+      "netlify-database: Zero-config Postgres for Netlify apps via @netlify/database — querying data from Functions/Edge Functions, writing schema migrations, setting up Drizzle ORM, local dev with netlify",
+      "netlify-deploy: Create, configure, and manage Netlify deploys from code — reach for this when setting up Git continuous deployment, running netlify deploy or netlify deploy --prod from the CLI, wr",
+      "netlify-edge-functions: Write and configure Netlify Edge Functions — TypeScript/JavaScript handlers running in a Deno runtime at the network edge. Use when adding auth middleware or auth redirects, geoloc",
+      "netlify-forms: Serverless form handling on Netlify-hosted sites — detects HTML forms at deploy time, stores submissions, filters spam, and sends notifications. Use when adding a contact form, lea",
+      "netlify-frameworks: Deploy and configure web frameworks on Netlify — build settings and SSR/edge adapters plus local platform emulation and env vars. Use when setting up or fixing a framework deploy (",
+      "netlify-functions: Write, configure, and deploy Netlify serverless functions in TypeScript, JavaScript, or Go. Use this when adding an API endpoint or backend route, adding a contact form handler, wi",
+      "netlify-identity: Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket OAuth, server-side getUser() checks, role-based access contro",
+      "netlify-image-cdn: Transforms images on demand via Netlify Image CDN's /.netlify/images endpoint with query parameters for resizing/cropping/format/quality. Use when adding image optimization or resp",
+      "netlify-mcp-servers: Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an MCP server, exposing an app or API to AI agents as MCP tools, ",
+      "netlify-access-control: Picks the right Netlify site-protection layer and disambiguates the three unrelated \"auth\" concepts users conflate — app-user login (Netlify Identity), site-load gating (Password P",
+      "netlify-agent-runner: Run AI agent tasks remotely on Netlify using Claude, Codex, or Gemini. Use when the user wants to run an AI agent on their site, get a second opinion from another model, or delegat",
+      "netlify-ai-gateway: Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, TypeSafe (Jev), or OpenRouter-hosted models (xAI/DeepSeek/Meta/Mistral/Qwen) from Netlify Functions or Edge ",
+      "netlify-blobs: Store and retrieve unstructured objects, files, and cache-like state on Netlify with the @netlify/blobs module. Use when persisting user file uploads (images/documents), caching co",
+      "netlify-caching: Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, and proxies. Use when you add caching or cache-control headers to a function response, tune cach",
+      "netlify-config: Configure Netlify builds and routing via netlify.toml, _redirects, and _headers. Use when setting a build command or publish directory, adding redirects or rewrites or proxies, add",
+      "netlify-database: Zero-config Postgres for Netlify apps via @netlify/database — querying data from Functions/Edge Functions, writing schema migrations, setting up Drizzle ORM, local dev with netlify",
+      "netlify-deploy: Create, configure, and manage Netlify deploys from code — reach for this when setting up Git continuous deployment, running netlify deploy or netlify deploy --prod from the CLI, wr",
+      "netlify-edge-functions: Write and configure Netlify Edge Functions — TypeScript/JavaScript handlers running in a Deno runtime at the network edge. Use when adding auth middleware or auth redirects, geoloc",
+      "netlify-forms: Serverless form handling on Netlify-hosted sites — detects HTML forms at deploy time, stores submissions, filters spam, and sends notifications. Use when adding a contact form, lea",
+      "netlify-frameworks: Deploy and configure web frameworks on Netlify — build settings and SSR/edge adapters plus local platform emulation and env vars. Use when setting up or fixing a framework deploy (",
+      "netlify-functions: Write, configure, and deploy Netlify serverless functions in TypeScript, JavaScript, or Go. Use this when adding an API endpoint or backend route, adding a contact form handler, wi",
+      "netlify-identity: Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket OAuth, server-side getUser() checks, role-based access contro",
+      "netlify-image-cdn: Transforms images on demand via Netlify Image CDN's /.netlify/images endpoint with query parameters for resizing/cropping/format/quality. Use when adding image optimization or resp",
+      "netlify-mcp-servers: Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an MCP server, exposing an app or API to AI agents as MCP tools, "
+    ]
+  },
+  {
+    "source": "https://github.com/obra/superpowers",
+    "revision": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+    "included": 15,
+    "excluded": [],
+    "patterns": [
+      "brainstorming: You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design befo",
+      "diagnosing-superpowers: Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too lo",
+      "dispatching-parallel-agents: Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "executing-plans: Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
+      "finishing-a-development-branch: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+      "receiving-code-review: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verificati",
+      "requesting-code-review: Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "subagent-driven-development: Use when executing implementation plans with independent tasks in the current session",
+      "systematic-debugging: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "test-driven-development: Use when implementing any feature or bugfix, before writing implementation code",
+      "using-git-worktrees: Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git w",
+      "using-superpowers: Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+      "verification-before-completion: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any succ",
+      "writing-plans: Use when you have a spec or requirements for a multi-step task, before touching code",
+      "writing-skills: Use when creating new skills, editing existing skills, or verifying skills work before deployment"
+    ]
+  },
+  {
+    "source": "https://github.com/openai/skills",
+    "revision": "49f948faa9258a0c61caceaf225e179651397431",
+    "included": 36,
+    "excluded": [
+      {
+        "path": "skills\\.curated\\figma\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\.curated\\figma-code-connect-components\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\.curated\\figma-create-design-system-rules\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\.curated\\figma-create-new-file\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\.curated\\figma-generate-design\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\.curated\\figma-generate-library\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\.curated\\figma-implement-design\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\.curated\\figma-use\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      }
+    ],
+    "patterns": [
+      "aspnet-core: Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC,",
+      "chatgpt-apps: Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wir",
+      "cli-creator: Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to creat",
+      "cloudflare-deploy: Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cl",
+      "define-goal: Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or ",
+      "gh-address-comments: Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+      "gh-fix-ci: Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and impl",
+      "hatch-pet: Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visu",
+      "jupyter-notebook: Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script",
+      "linear: Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
+      "migrate-to-codex: Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
+      "netlify-deploy: Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and product",
+      "notion-knowledge-capture: Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
+      "notion-meeting-intelligence: Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
+      "notion-research-documentation: Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
+      "notion-spec-to-implementation: Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
+      "openai-docs: Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help c",
+      "pdf: Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `",
+      "playwright: Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` o",
+      "playwright-interactive: Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.",
+      "render-deploy: Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set",
+      "screenshot: Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavai",
+      "security-best-practices: Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a ",
+      "security-ownership-map: Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visua",
+      "security-threat-model: Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigg",
+      "sentry: Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using ",
+      "speech: Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scr",
+      "transcribe: Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label",
+      "vercel-deploy: Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a previe",
+      "winui-app: Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK sample",
+      "yeet: Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).",
+      "imagegen: Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. U",
+      "openai-docs: Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help c",
+      "plugin-creator: Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishin",
+      "skill-creator: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialize",
+      "skill-installer: Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill"
+    ]
+  },
+  {
+    "source": "https://github.com/prisma/skills",
+    "revision": "1123817e60d15ca0f3af91878923241dee7e3b09",
+    "included": 9,
+    "excluded": [],
+    "patterns": [
+      "prisma-cli: Prisma ORM CLI commands reference covering init, generate, migrate, db, dev, complete, studio, validate, format, debug, and mcp. Use for ORM/database CLI workflows, not the Prisma ",
+      "prisma-client-api: Prisma Client API reference covering model queries, filters, operators, and client methods. Use when writing database queries, using CRUD operations, filtering data, or configuring",
+      "prisma-compute: Prisma Compute deployment and hosting guide. Use whenever the user mentions Prisma Compute, `prisma.compute.ts`, `defineComputeConfig`, deploying or hosting a Prisma app, `@prisma/",
+      "prisma-database-setup: Guides for configuring Prisma with different database providers (PostgreSQL, MySQL, SQLite, MongoDB, etc.). Use when setting up a new project, changing databases, or troubleshootin",
+      "prisma-driver-adapter-implementation: Required reference for Prisma ORM 7 SQL driver adapter work. Use when implementing or modifying adapters, adding database drivers, or touching SqlDriverAdapter, Transaction, savepo",
+      "prisma-mongodb-upgrade: Decision and migration guide for Prisma ORM MongoDB projects on v6, which have no upgrade path to v7. Use when a MongoDB project asks about upgrading Prisma, when \"upgrade to prism",
+      "prisma-postgres: Prisma Postgres setup and operations guidance across Console, create-db CLI, Management API, and Management API SDK. Use when creating Prisma Postgres databases, working in Prisma ",
+      "prisma-postgres-setup: Set up a new Prisma Postgres database and connect it to a local project using the Management API. Use when asked to \"set up a database\", \"create a Prisma Postgres project\", \"get a ",
+      "prisma-upgrade-v7: Complete migration guide from Prisma ORM v6 to v7 covering all breaking changes. Use when upgrading Prisma versions, encountering v7 errors, or migrating existing projects. Trigger"
+    ]
+  },
+  {
+    "source": "https://github.com/redis/agent-skills",
+    "revision": "a84871d065f398fed55e1633f66b66f731eb4e2b",
+    "included": 16,
+    "excluded": [],
+    "patterns": [
+      "iris-development: Iris is Redis's umbrella for AI-focused products. Use this skill when integrating with the Iris Redis Agent Memory (RAM) data plane on Redis Cloud — recording session events for an",
+      "redis-clustering: Redis Cluster and replication guidance covering hash tags for multi-key operations, avoiding CROSSSLOT errors, and reading from replicas to scale read-heavy workloads. Use when des",
+      "redis-connections: Redis client and connection guidance covering connection pooling, multiplexing, pipelining, client-side caching with RESP3, avoiding slow commands (KEYS, SMEMBERS, HGETALL), and tu",
+      "redis-core: Core Redis modeling guidance — choose the right data structure (String, Hash, List, Set, Sorted Set, JSON, Stream, Vector Set) and use consistent colon-separated key names. Use whe",
+      "redis-observability: Redis observability guidance — which metrics to monitor (memory, connections, hit ratio, ops/sec, rejected connections), which built-in commands to reach for during incident triage",
+      "redis-search: Redis Search guidance covering FT.CREATE schema design, field type selection (TEXT, TAG, NUMERIC, GEO, GEOSHAPE, VECTOR, JSON path), DIALECT 2 query syntax, FT.SEARCH / FT.AGGREGAT",
+      "redis-security: Redis security guidance covering authentication (requirepass and ACL users), TLS, ACL-based least-privilege access control, restricting network exposure via bind and protected-mode",
+      "redis-semantic-cache: Redis LangCache guidance for semantic caching of LLM responses on Redis Cloud — calling search/set via the SDK or REST API, tuning the similarity threshold, separating caches per t",
+      "iris-development: Iris is Redis's umbrella for AI-focused products. Use this skill when integrating with the Iris Redis Agent Memory (RAM) data plane on Redis Cloud — recording session events for an",
+      "redis-clustering: Redis Cluster and replication guidance covering hash tags for multi-key operations, avoiding CROSSSLOT errors, and reading from replicas to scale read-heavy workloads. Use when des",
+      "redis-connections: Redis client and connection guidance covering connection pooling, multiplexing, pipelining, client-side caching with RESP3, avoiding slow commands (KEYS, SMEMBERS, HGETALL), and tu",
+      "redis-core: Core Redis modeling guidance — choose the right data structure (String, Hash, List, Set, Sorted Set, JSON, Stream, Vector Set) and use consistent colon-separated key names. Use whe",
+      "redis-observability: Redis observability guidance — which metrics to monitor (memory, connections, hit ratio, ops/sec, rejected connections), which built-in commands to reach for during incident triage",
+      "redis-search: Redis Search guidance covering FT.CREATE schema design, field type selection (TEXT, TAG, NUMERIC, GEO, GEOSHAPE, VECTOR, JSON path), DIALECT 2 query syntax, FT.SEARCH / FT.AGGREGAT",
+      "redis-security: Redis security guidance covering authentication (requirepass and ACL users), TLS, ACL-based least-privilege access control, restricting network exposure via bind and protected-mode",
+      "redis-semantic-cache: Redis LangCache guidance for semantic caching of LLM responses on Redis Cloud — calling search/set via the SDK or REST API, tuning the similarity threshold, separating caches per t"
+    ]
+  },
+  {
+    "source": "https://github.com/remotion-dev/skills",
+    "revision": "cf49eff5d4463b33966b6618c83f7295797dd028",
+    "included": 0,
+    "excluded": [
+      {
+        "path": "skills\\remotion-best-practices\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\remotion-captions\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\remotion-create\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\remotion-docs\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\remotion-interactivity\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\remotion-maps\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\remotion-markup\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\remotion-multimedia\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\remotion-render\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\remotion-saas\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\remotion-studio\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\remotion-upgrade\\SKILL.md",
+        "reason": "No complete distributable license found"
+      }
+    ],
+    "patterns": []
+  },
+  {
+    "source": "https://github.com/resend/resend-skills",
+    "revision": "23e1e6b3a136136f3cce427b90b1979eb9233c74",
+    "included": 5,
+    "excluded": [],
+    "patterns": [
+      "agent-email-inbox: Use when building any system where email content triggers actions — AI agent inboxes, automated support handlers, email-to-task pipelines, or any workflow processing untrusted inbo",
+      "email-best-practices: Use when building email features, emails going to spam, high bounce rates, setting up SPF/DKIM/DMARC authentication, implementing email capture, ensuring compliance (CAN-SPAM, GDPR",
+      "react-email: Use when building HTML email templates with React components, adding a visual email editor to an application using the React Email visual editor, rendering emails to HTML, or sendi",
+      "resend: Use when working with the Resend email API — sending transactional emails (single or batch), receiving inbound emails via webhooks, managing email templates, tracking delivery even",
+      "resend-cli: Operate the Resend platform from the terminal — send emails (including React Email .tsx templates via --react-email), manage domains, contacts, broadcasts, templates, webhooks, API"
+    ]
+  },
+  {
+    "source": "https://github.com/sanity-io/agent-toolkit",
+    "revision": "88d6cdfa7cb06c99edd5f376efa4dac21ae3f877",
+    "included": 8,
+    "excluded": [],
+    "patterns": [
+      "content-experimentation-best-practices: Content experimentation and A/B testing guidance covering experiment design, hypotheses, metrics, sample size, statistical foundations, CMS-managed variants, and common analysis pi",
+      "content-modeling-best-practices: Structured content modeling guidance for schema design, content architecture, content reuse, references versus embedded objects, separation of concerns, and taxonomies across Sanit",
+      "portable-text-conversion: Convert HTML and Markdown content into Portable Text blocks for Sanity. Use when migrating content from legacy CMSs, importing HTML or Markdown into Sanity, building content pipeli",
+      "portable-text-serialization: Render and serialize Portable Text to React, Svelte, Vue, Astro, HTML, Markdown, and plain text. Use when implementing Portable Text rendering in any frontend framework, building c",
+      "sanity-best-practices: Sanity development best practices for schema design, GROQ queries, TypeGen, Visual Editing, images, Portable Text, Studio structure, localization, migrations, Sanity Functions, web",
+      "sanity-migration: Plans, implements, and reviews migrations from other CMSes and content systems into Sanity. Use when migrating or replatforming to Sanity from AEM, Adobe Experience Manager, Conten",
+      "sanity-studio-upgrade: Produces a tailored Sanity Studio upgrade plan by inspecting the repository's installed versions, config, and source, then reporting only the breaking changes that actually apply. ",
+      "seo-aeo-best-practices: SEO and AEO best practices for metadata, Open Graph, sitemaps, robots.txt, hreflang, JSON-LD structured data, EEAT, and content optimized for search engines and AI answer surfaces."
+    ]
+  },
+  {
+    "source": "https://github.com/stripe/ai",
+    "revision": "6a482a7ab5aa0a2e461f68c5c1ea107232a80a45",
+    "included": 60,
+    "excluded": [],
+    "patterns": [
+      "connect-recommend: Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get started with Connect, is building a marketplace, platform, mu",
+      "connect-required-verification-information: Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, onboarding, KYC, or account requirements; when they need to com",
+      "metronome: Guides Metronome usage-based billing integration decisions — event ingestion (single and batch, idempotency, billable metrics), contract design (rate cards, overrides, dimensional ",
+      "stripe-apps: Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"add a panel to the customer page\", \"customize my Stripe Dashb",
+      "stripe-best-practices: Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared test mode sandbox), API selection (Checkout Sessions vs Payme",
+      "stripe-directory: Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the documented way to engage them — to pay, donate, subscribe, book, prov",
+      "stripe-docs: Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over curl or WebFetch for any docs.stripe.com content. Use to fetch ",
+      "stripe-pay: Helps users send funds to another Stripe business, transfer money to a Stripe Profile handle or network ID, or ask whether an agent can pay a Stripe business. Use Stripe Directory ",
+      "stripe-projects: Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a database\", \"set up auth\", \"add caching\", \"give me a Postgres\"",
+      "upgrade-stripe: Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs",
+      "connect-recommend: Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get started with Connect, is building a marketplace, platform, mu",
+      "connect-required-verification-information: Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, onboarding, KYC, or account requirements; when they need to com",
+      "metronome: Guides Metronome usage-based billing integration decisions — event ingestion (single and batch, idempotency, billable metrics), contract design (rate cards, overrides, dimensional ",
+      "stripe-apps: Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"add a panel to the customer page\", \"customize my Stripe Dashb",
+      "stripe-best-practices: Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared test mode sandbox), API selection (Checkout Sessions vs Payme",
+      "stripe-directory: Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the documented way to engage them — to pay, donate, subscribe, book, prov",
+      "stripe-docs: Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over curl or WebFetch for any docs.stripe.com content. Use to fetch ",
+      "stripe-pay: Helps users send funds to another Stripe business, transfer money to a Stripe Profile handle or network ID, or ask whether an agent can pay a Stripe business. Use Stripe Directory ",
+      "stripe-projects: Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a database\", \"set up auth\", \"add caching\", \"give me a Postgres\"",
+      "upgrade-stripe: Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs",
+      "connect-recommend: Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get started with Connect, is building a marketplace, platform, mu",
+      "connect-required-verification-information: Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, onboarding, KYC, or account requirements; when they need to com",
+      "metronome: Guides Metronome usage-based billing integration decisions — event ingestion (single and batch, idempotency, billable metrics), contract design (rate cards, overrides, dimensional ",
+      "stripe-apps: Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"add a panel to the customer page\", \"customize my Stripe Dashb",
+      "stripe-best-practices: Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared test mode sandbox), API selection (Checkout Sessions vs Payme",
+      "stripe-directory: Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the documented way to engage them — to pay, donate, subscribe, book, prov",
+      "stripe-docs: Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over curl or WebFetch for any docs.stripe.com content. Use to fetch ",
+      "stripe-pay: Helps users send funds to another Stripe business, transfer money to a Stripe Profile handle or network ID, or ask whether an agent can pay a Stripe business. Use Stripe Directory ",
+      "stripe-projects: Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a database\", \"set up auth\", \"add caching\", \"give me a Postgres\"",
+      "upgrade-stripe: Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs",
+      "connect-recommend: Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get started with Connect, is building a marketplace, platform, mu",
+      "connect-required-verification-information: Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, onboarding, KYC, or account requirements; when they need to com",
+      "metronome: Guides Metronome usage-based billing integration decisions — event ingestion (single and batch, idempotency, billable metrics), contract design (rate cards, overrides, dimensional ",
+      "stripe-apps: Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"add a panel to the customer page\", \"customize my Stripe Dashb",
+      "stripe-best-practices: Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared test mode sandbox), API selection (Checkout Sessions vs Payme",
+      "stripe-directory: Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the documented way to engage them — to pay, donate, subscribe, book, prov",
+      "stripe-docs: Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over curl or WebFetch for any docs.stripe.com content. Use to fetch ",
+      "stripe-pay: Helps users send funds to another Stripe business, transfer money to a Stripe Profile handle or network ID, or ask whether an agent can pay a Stripe business. Use Stripe Directory ",
+      "stripe-projects: Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a database\", \"set up auth\", \"add caching\", \"give me a Postgres\"",
+      "upgrade-stripe: Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs",
+      "connect-recommend: Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get started with Connect, is building a marketplace, platform, mu",
+      "connect-required-verification-information: Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, onboarding, KYC, or account requirements; when they need to com",
+      "metronome: Guides Metronome usage-based billing integration decisions — event ingestion (single and batch, idempotency, billable metrics), contract design (rate cards, overrides, dimensional ",
+      "stripe-apps: Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"add a panel to the customer page\", \"customize my Stripe Dashb",
+      "stripe-best-practices: Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared test mode sandbox), API selection (Checkout Sessions vs Payme",
+      "stripe-directory: Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the documented way to engage them — to pay, donate, subscribe, book, prov",
+      "stripe-docs: Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over curl or WebFetch for any docs.stripe.com content. Use to fetch ",
+      "stripe-pay: Helps users send funds to another Stripe business, transfer money to a Stripe Profile handle or network ID, or ask whether an agent can pay a Stripe business. Use Stripe Directory ",
+      "stripe-projects: Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a database\", \"set up auth\", \"add caching\", \"give me a Postgres\"",
+      "upgrade-stripe: Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs",
+      "connect-recommend: Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get started with Connect, is building a marketplace, platform, mu",
+      "connect-required-verification-information: Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, onboarding, KYC, or account requirements; when they need to com",
+      "metronome: Guides Metronome usage-based billing integration decisions — event ingestion (single and batch, idempotency, billable metrics), contract design (rate cards, overrides, dimensional ",
+      "stripe-apps: Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"add a panel to the customer page\", \"customize my Stripe Dashb",
+      "stripe-best-practices: Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared test mode sandbox), API selection (Checkout Sessions vs Payme",
+      "stripe-directory: Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the documented way to engage them — to pay, donate, subscribe, book, prov",
+      "stripe-docs: Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over curl or WebFetch for any docs.stripe.com content. Use to fetch ",
+      "stripe-pay: Helps users send funds to another Stripe business, transfer money to a Stripe Profile handle or network ID, or ask whether an agent can pay a Stripe business. Use Stripe Directory ",
+      "stripe-projects: Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a database\", \"set up auth\", \"add caching\", \"give me a Postgres\"",
+      "upgrade-stripe: Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs"
+    ]
+  },
+  {
+    "source": "https://github.com/supabase/agent-skills",
+    "revision": "544bfc56c89afe2b87b20017a59b2c6e9502a1fb",
+    "included": 2,
+    "excluded": [],
+    "patterns": [
+      "supabase: Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integra",
+      "supabase-postgres-best-practices: Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changing anything that lives in a Postgres database: creating or al"
+    ]
+  },
+  {
+    "source": "https://github.com/trailofbits/skills",
+    "revision": "82fe8226252622fa807643bdca1710901198553a",
+    "included": 0,
+    "excluded": [
+      {
+        "path": "plugins\\agentic-actions-auditor\\skills\\agentic-actions-auditor\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\audit-context-building\\skills\\audit-context-building\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\building-secure-contracts\\skills\\algorand-vulnerability-scanner\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\building-secure-contracts\\skills\\audit-prep-assistant\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\building-secure-contracts\\skills\\cairo-vulnerability-scanner\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\building-secure-contracts\\skills\\code-maturity-assessor\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\building-secure-contracts\\skills\\cosmos-vulnerability-scanner\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\building-secure-contracts\\skills\\guidelines-advisor\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\building-secure-contracts\\skills\\secure-workflow-guide\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\building-secure-contracts\\skills\\solana-vulnerability-scanner\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\building-secure-contracts\\skills\\substrate-vulnerability-scanner\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\building-secure-contracts\\skills\\token-integration-analyzer\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\building-secure-contracts\\skills\\ton-vulnerability-scanner\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\burpsuite-project-parser\\skills\\burpsuite-project-parser\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\c-review\\skills\\c-review\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\claude-in-chrome-troubleshooting\\skills\\chrome-mcp-troubleshooting\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\code-improver\\skills\\code-improver\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\code-improver\\skills\\pr-improver\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\code-improver\\skills\\skill-improver\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\constant-time-analysis\\skills\\constant-time-analysis\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\culture-index\\skills\\interpreting-culture-index\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\devcontainer-setup\\skills\\devcontainer-setup\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\differential-review\\skills\\differential-review\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\dimensional-analysis\\skills\\dimensional-analysis\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\dwarf-expert\\skills\\dwarf-expert\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\entry-point-analyzer\\skills\\entry-point-analyzer\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\firebase-apk-scanner\\skills\\firebase-apk-scanner\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\fp-check\\skills\\fp-check\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\gh-cli\\skills\\gh-cli\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\github-triage\\skills\\github-triage\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\goal-prompt\\skills\\goal-prompt\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\let-fate-decide\\skills\\let-fate-decide\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\modern-cpp\\skills\\modern-cpp\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\modern-python\\skills\\modern-python\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\mutation-testing\\skills\\mutation-testing\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\open-sourcing\\skills\\open-sourcing\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\post-patch-validation\\skills\\post-patch-validation\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\property-based-testing\\skills\\property-based-testing\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\review-walkthrough\\skills\\review-walkthrough\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\rust-review\\skills\\rust-review\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\second-opinion\\skills\\second-opinion\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\semgrep-rule-creator\\skills\\semgrep-rule-creator\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\semgrep-rule-variant-creator\\skills\\semgrep-rule-variant-creator\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\sharp-edges\\skills\\sharp-edges\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\spec-to-code-compliance\\skills\\spec-to-code-compliance\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\static-analysis\\skills\\codeql\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\static-analysis\\skills\\sarif-parsing\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\static-analysis\\skills\\semgrep\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\supply-chain-risk-auditor\\skills\\supply-chain-risk-auditor\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\address-sanitizer\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\aflpp\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\atheris\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\cargo-fuzz\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\constant-time-testing\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\coverage-analysis\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\fuzzing-dictionary\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\fuzzing-obstacles\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\harness-writing\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\libafl\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\libfuzzer\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\ossfuzz\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\ruzzy\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\testing-handbook-generator\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\testing-handbook-skills\\skills\\wycheproof\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\audit-augmentation\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\crypto-protocol-diagram\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\diagramming-code\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\genotoxic\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\graph-evolution\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\mermaid-to-proverif\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\slicing-code-context\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\trailmark\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\trailmark-finding-triage\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\trailmark-review-gate\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\trailmark-structural\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\trailmark-summary\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\trailmark-variant-neighborhood\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\trailmark\\skills\\vector-forge\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\variant-analysis\\skills\\variant-analysis\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\vulnerability-triage-brocards\\skills\\vulnerability-triage-brocards\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\writing-lean-proofs\\skills\\writing-lean-proofs\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\yara-authoring\\skills\\yara-rule-authoring\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "plugins\\zeroize-audit\\skills\\zeroize-audit\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      }
+    ],
+    "patterns": []
+  },
+  {
+    "source": "https://github.com/vercel-labs/agent-browser",
+    "revision": "d01253d9db28d75080e36da3c1c31ef89454731e",
+    "included": 10,
+    "excluded": [],
+    "patterns": [
+      "agentcore: Run agent-browser on AWS Bedrock AgentCore cloud browsers. Use when the user wants to use AgentCore, run browser automation on AWS, use a cloud browser with AWS credentials, or nee",
+      "core: Core agent-browser usage guide. Read this before running any agent-browser commands. Covers the snapshot-and-ref workflow, navigating pages, interacting with elements (click, fill,",
+      "derive-client: Reverse-engineer a website's internal API by recording browser traffic into a HAR file, then generate a standalone client or CLI that calls the endpoints directly, with no browser ",
+      "dogfood: Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked to \"dogfood\", \"QA\", \"exploratory test\", \"find issues\", \"bug hunt\", \"te",
+      "electron: Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome DevTools Protocol. Use when the user needs to interact with an",
+      "protected-vercel-deployments: Access and test Vercel deployments protected by Vercel Authentication, SSO, or Deployment Protection with agent-browser. Use when a preview or production URL redirects to a Vercel ",
+      "slack: Interact with Slack workspaces using browser automation. Use when the user needs to check unread channels, navigate Slack, send messages, extract data, find information, search con",
+      "vercel-sandbox: Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app. Use when the user needs browser automation in a Vercel app (Next.js, ",
+      "webmcp-gen: Build and validate experimental WebMCP tools for an existing web page. Use when an agent needs to expose a site's real workflows as page tools, create webmcp.init.js, define determ",
+      "agent-browser: Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting"
+    ]
+  },
+  {
+    "source": "https://github.com/vercel-labs/agent-skills",
+    "revision": "063bee94c3f4df8453406c830b0a7df0f2860278",
+    "included": 0,
+    "excluded": [
+      {
+        "path": "skills\\composition-patterns\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\deploy-to-vercel\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\react-best-practices\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\react-native-skills\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\react-view-transitions\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\vercel-cli-with-tokens\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\vercel-optimize\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\web-design-guidelines\\SKILL.md",
+        "reason": "No complete distributable license found"
+      },
+      {
+        "path": "skills\\writing-guidelines\\SKILL.md",
+        "reason": "No complete distributable license found"
+      }
+    ],
+    "patterns": []
+  },
+  {
+    "source": "https://github.com/vercel-labs/skills",
+    "revision": "3694740352eeef5cdd689af694c485f1ff62eec3",
+    "included": 1,
+    "excluded": [],
+    "patterns": [
+      "find-skills: Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending c"
+    ]
+  },
+  {
+    "source": "https://github.com/WordPress/agent-skills",
+    "revision": "34da134e184ef93d6fb8c074fed309e06b964f34",
+    "included": 0,
+    "excluded": [
+      {
+        "path": "skills\\blueprint\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wordpress-router\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-abilities-api\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-abilities-audit\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-abilities-verify\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-block-development\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-block-themes\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-env\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-interactivity-api\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-patterns\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-performance\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-phpstan\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-playground\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-plugin-development\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-plugin-directory-guidelines\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-project-triage\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-rest-api\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wp-wpcli-and-ops\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      },
+      {
+        "path": "skills\\wpds\\SKILL.md",
+        "reason": "License outside the MIT/Apache/ISC/BSD bundle policy"
+      }
+    ],
+    "patterns": []
+  }
+]

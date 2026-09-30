@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/resend/resend-skills",
+  "revision": "23e1e6b3a136136f3cce427b90b1979eb9233c74",
+  "path": "skills\\react-email\\SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

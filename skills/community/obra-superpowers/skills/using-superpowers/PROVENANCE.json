@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/obra/superpowers",
+  "revision": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+  "path": "skills\\using-superpowers\\SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

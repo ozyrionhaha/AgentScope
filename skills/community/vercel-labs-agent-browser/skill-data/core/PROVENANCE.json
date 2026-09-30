@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/vercel-labs/agent-browser",
+  "revision": "d01253d9db28d75080e36da3c1c31ef89454731e",
+  "path": "skill-data\\core\\SKILL.md",
+  "license": "Apache-2.0",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

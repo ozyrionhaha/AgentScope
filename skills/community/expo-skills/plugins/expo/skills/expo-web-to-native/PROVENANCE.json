@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/expo/skills",
+  "revision": "c0dadf355d4caa4e1720de372f0f8766df1a8978",
+  "path": "plugins\\expo\\skills\\expo-web-to-native\\SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

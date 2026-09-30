@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/antonbabenko/terraform-skill",
+  "revision": "0a3a4a66e99001347d36a41e10260a825be3ab62",
+  "path": "skills\\terraform-skill\\SKILL.md",
+  "license": "Apache-2.0",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

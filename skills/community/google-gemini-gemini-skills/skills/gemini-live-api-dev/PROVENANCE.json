@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/google-gemini/gemini-skills",
+  "revision": "6fee1bec62d6a0ca92c1d0e34d62ff11f70c498a",
+  "path": "skills\\gemini-live-api-dev\\SKILL.md",
+  "license": "Apache-2.0",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

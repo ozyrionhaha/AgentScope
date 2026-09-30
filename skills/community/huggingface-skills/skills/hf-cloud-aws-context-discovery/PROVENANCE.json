@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/huggingface/skills",
+  "revision": "80f9fa530e46f4ae642fcb9e1725bad0e1979395",
+  "path": "skills\\hf-cloud-aws-context-discovery\\SKILL.md",
+  "license": "Apache-2.0",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

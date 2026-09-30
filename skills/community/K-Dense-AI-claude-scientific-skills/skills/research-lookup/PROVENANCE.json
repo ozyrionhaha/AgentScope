@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/K-Dense-AI/claude-scientific-skills",
+  "revision": "65d6e786832e2c52832713117bbbf5096b56f77f",
+  "path": "skills/research-lookup/SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "author": "K-Dense-AI",
+  "notes": "Original instructions and local assets retained. No install hooks or scripts executed."
+}

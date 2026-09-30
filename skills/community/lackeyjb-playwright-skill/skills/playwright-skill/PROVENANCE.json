@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/lackeyjb/playwright-skill",
+  "revision": "dd47a6a023e249eb1b36e9e943eab89d0900865d",
+  "path": "skills\\playwright-skill\\SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

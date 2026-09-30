@@ -1,0 +1,49 @@
+{
+  "name": "@ozy/agentscope",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Your model. A better agent around it. A local-first agent workspace by ozy.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "tsx server/main.ts --dev",
+    "build": "tsc --noEmit && vite build",
+    "start": "tsx server/main.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test --test-concurrency=1 tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "check": "pnpm typecheck && pnpm test && pnpm build",
+    "browser:install": "playwright install chromium",
+    "skills:verify": "tsx scripts/verify-skills.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "diff": "^8.0.2",
+    "express": "^5.1.0",
+    "ignore": "^7.0.5",
+    "lucide-react": "^0.468.0",
+    "playwright": "^1.55.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-markdown": "^10.1.0",
+    "yaml": "^2.8.1",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/diff": "^7.0.2",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "prettier": "^3.9.9",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/netlify/context-and-tools",
+  "revision": "00abfc7a5559bb209d584aa5a2c33515d6941550",
+  "path": "agent-plugin\\skills\\netlify-image-cdn\\SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

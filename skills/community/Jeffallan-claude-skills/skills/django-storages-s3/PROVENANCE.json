@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/Jeffallan/claude-skills",
+  "revision": "882ef55e377dbf9a4dbe496bb41ac6ccd0e555cf",
+  "path": "skills/django-storages-s3/SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "author": "Jeffallan",
+  "notes": "Original instructions and local assets retained. No install hooks or scripts executed."
+}

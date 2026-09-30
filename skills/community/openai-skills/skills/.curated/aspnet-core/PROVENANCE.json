@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/openai/skills",
+  "revision": "49f948faa9258a0c61caceaf225e179651397431",
+  "path": "skills\\.curated\\aspnet-core\\SKILL.md",
+  "license": "Apache-2.0",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/firecrawl/skills",
+  "revision": "3a410054eb2a4bbb1545d0fd88d4cb282f64624f",
+  "path": "skills\\build\\firecrawl-build-interact\\SKILL.md",
+  "license": "ISC",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

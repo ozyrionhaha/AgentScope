@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/prisma/skills",
+  "revision": "1123817e60d15ca0f3af91878923241dee7e3b09",
+  "path": "prisma-postgres-setup\\SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

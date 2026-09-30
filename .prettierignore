@@ -1,0 +1,8 @@
+skills/community/
+skills/manifest.json
+skills/community-lock.json
+docs/reference-audit.json
+node_modules/
+dist/
+.agentscope/
+pnpm-lock.yaml

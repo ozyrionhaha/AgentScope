@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/microsoft/azure-skills",
+  "revision": "f07c05364353925f7c8b0e474aa95afa291bce54",
+  "path": "skills\\azure-kubernetes\\azure-kubernetes-app-deploy\\SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

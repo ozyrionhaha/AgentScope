@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/wshobson/agents",
+  "revision": "156b7a5e7a8b93642628a339ee4039c925b34c7f",
+  "path": "plugins/incident-response/skills/on-call-handoff-patterns/SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "author": "wshobson",
+  "notes": "Original instructions and local assets retained. No install hooks or scripts executed."
+}

@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/fvadicamo/dev-agent-skills",
+  "revision": "8e710c57b4aa34fec63752ccf04a47adb4a8be65",
+  "path": "plugins\\skill-authoring\\skills\\creating-skills\\SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

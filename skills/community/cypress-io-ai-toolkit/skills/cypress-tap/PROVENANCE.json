@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/cypress-io/ai-toolkit",
+  "revision": "da6ea17dfa674a2b68908d823e37f5797d5be238",
+  "path": "skills\\cypress-tap\\SKILL.md",
+  "license": "MIT",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.agentscope/
+*.log
+test-results/
+playwright-report/
+.env*
+!.env.example

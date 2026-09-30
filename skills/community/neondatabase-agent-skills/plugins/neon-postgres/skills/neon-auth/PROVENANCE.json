@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/neondatabase/agent-skills",
+  "revision": "80164a28443aca7c82ac1a70aed836950d6c29ea",
+  "path": "plugins\\neon-postgres\\skills\\neon-auth\\SKILL.md",
+  "license": "Apache-2.0",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}

@@ -1,0 +1,8 @@
+{
+  "source": "https://github.com/anthropics/skills",
+  "revision": "8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4",
+  "path": "skills\\skill-creator\\SKILL.md",
+  "license": "Apache-2.0",
+  "modified": false,
+  "notes": "Original skill assets preserved. Executable assets are inert until explicitly invoked through permission-checked tools."
+}
