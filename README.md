@@ -2,6 +2,8 @@
 
 **Your model. A better agent around it.**
 
+4,427+ built-in and community skills ready to use across coding, debugging, web development, DevOps, databases, security, automation, game development, and more.
+
 AgentScope is an open-source, local-first AI agent workspace that lets you bring your own model and API keys while giving the model a powerful coding and automation environment.
 
 Instead of locking you into one AI provider, AgentScope connects different models to the same agent system, tools, skills, workspace, permissions, memory, workflows, and project context.
@@ -140,6 +142,8 @@ Instead of blindly loading an entire repository into every request, the agent ca
 ### Skills
 
 AgentScope has a built-in skill system.
+
+AgentScope currently ships with 4,427 registered skills, combining built-in capabilities with a massive community skill library. Skills are searched and loaded only when relevant, so the model doesn't need all 4,427 in context at once.
 
 ![AgentScope Skills](docs/screenshots/skills.png)
 
